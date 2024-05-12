@@ -1,8 +1,9 @@
-path: ./ # dataset root dir
-train: train/images/train # train images (relative to 'path') 4 images
-val: val/images/val # val images (relative to 'path') 4 images
-
-
+path: /media/mateus/usarLinux/video/dataset # dataset root dir
+train: /media/mateus/usarLinux/video/dataset/train/images # train images (relative to 'path') 4 images
+val: /media/mateus/usarLinux/video/dataset/val/images  # val images (relative to 'path') 4 images
+ 
+nc: 21
+ 
 # Classes
 names:
   0: person
