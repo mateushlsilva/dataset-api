@@ -1,29 +1,10 @@
-path: /media/mateus/usarLinux/video/dataset # dataset root dir
-train: /media/mateus/usarLinux/video/dataset/train/images # train images (relative to 'path') 4 images
-val: /media/mateus/usarLinux/video/dataset/val/images  # val images (relative to 'path') 4 images
+path: /media/mateus/usarLinux/video/dataset-api # dataset root dir
+train: /media/mateus/usarLinux/video/dataset-api/train/images # train images (relative to 'path') 4 images
+val: /media/mateus/usarLinux/video/dataset-api/val/images  # val images (relative to 'path') 4 images
  
-nc: 21
+nc: 2
  
 # Classes
 names:
   0: person
-  1: car
-  2: chair
-  3: bottle
-  4: pottedplant
-  5: bird
-  6: dog
-  7: sofa
-  8: bicycle
-  9: horse
-  10: boat
-  11: motorbike
-  12: cat
-  13: tvmonitor
-  14: cow
-  15: sheep
-  16: aeroplane
-  17: train
-  18: diningtable
-  19: bus
-  20: door
+  1: door
